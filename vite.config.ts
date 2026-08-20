@@ -5,6 +5,9 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // Relative asset paths so the site works when hosted under a sub-path
+    // (e.g. https://wmath84-ux.github.io/Real-no/).
+    base: './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
