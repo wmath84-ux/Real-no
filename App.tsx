@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, BookOpen, Clock, Lightbulb, Calculator, ShieldAlert } from 'lucide-react';
-import HistoryPage from './pages/HistoryPage';
-import Concept1Page from './pages/Concept1Page';
-import Concept2Page from './pages/Concept2Page';
-import Concept3Page from './pages/Concept3Page';
+import HistoryPage from './HistoryPage';
+import Concept1Page from './Concept1Page';
+import Concept2Page from './Concept2Page';
+import Concept3Page from './Concept3Page';
 import type { Page } from './types';
 
 declare global {
